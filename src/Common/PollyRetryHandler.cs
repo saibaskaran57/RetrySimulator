@@ -168,7 +168,7 @@
                   5,
                   retryAttempt =>
                   {
-                      return TimeSpan.FromSeconds(Math.Pow(2, retryAttempt))
+                      return TimeSpan.FromSeconds(Math.Pow(2, retryAttempt - 1))
                             + TimeSpan.FromMilliseconds(jitterer.Next(option.JitterStart, option.JitterEnd));
                   },
                   onRetry)
