@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/RetrySimulator
+/src/Client/obj
+/src/Common/obj
+/src/Core/obj
+/src/Server/obj/Debug/net5.0
+/src/Server/obj
+/src/Server/bin/Release/net5.0
+/src/Core/bin/Release/netstandard2.0
+/src/Common/bin/Release/netstandard2.0
+/src/Client/bin/Release/net5.0
+/src/Server/bin/Debug/net5.0
+/src/Core/bin/Debug/netstandard2.0
+/src/Common/bin/Debug/netstandard2.0
+/src/Client/bin/Debug/net5.0
+/src/Server/Server.csproj.user

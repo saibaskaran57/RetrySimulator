@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Xyz": {
+    "Server": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
