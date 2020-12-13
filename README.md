@@ -8,13 +8,14 @@
 4) Writes results to project `/Result` directory in CSV format to visualize the data.
 
 ## Project Dependancies
-1) Visual Studio 2019/Visual Studio Code
-2) Download [.NET 5 Build SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
-3) Ensure Visual Studio 2019 IDE have been configured with Nuget package source : https://api.nuget.org/v3/index.json
+1) Clone RetrySimulator GitHub project to your preferred environment.
+2) Visual Studio 2019/Visual Studio Code
+3) Download [.NET 5 Build SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
+4) Ensure Visual Studio 2019 IDE have been configured with Nuget package source : https://api.nuget.org/v3/index.json
 
 ## Guide to setup & run project locally
 ### Running client simulator
-1) Open preferred to Windows Terminal & navigate to project(<project path>/Client)
+1) Open preferred to Windows Terminal & navigate to project(`<project path>/Client`)
 2) Run `dotnet run` command
 3) Choose based on the retry option below:
    - Constant Backoff (e.g. 1s, 1s, 1s)
@@ -49,5 +50,5 @@
 }
  ```
 ### Running local server simulator
-1) Open preferred to Windows Terminal & navigate to project (<project path>/Server)
+1) Open preferred to Windows Terminal & navigate to project (`<project path>/Server`)
 2) Run `dotnet run` command
