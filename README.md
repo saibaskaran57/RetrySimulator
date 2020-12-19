@@ -1,5 +1,5 @@
 # Retry Simulator
- A project to simulate retry patterns with services using .NET Polly framework.
+ A project to simulate retry patterns handling with services using .NET Polly framework.
  
 ## Compatibility
 Windows, Linux, Mac
