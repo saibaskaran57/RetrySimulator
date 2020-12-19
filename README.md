@@ -53,3 +53,7 @@
 ### Running local server simulator
 1) Open preferred Windows Terminal & navigate to project (`<project path>/Server`)
 2) Run `dotnet run` command
+
+### What's next?
+1) To research on how to throttle/drop/lag incoming & outgoing traffic for Windows/Ubuntu.
+2) Package as an .EXE format
