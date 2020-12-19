@@ -15,7 +15,7 @@
 
 ## Guide to setup & run project locally
 ### Running client simulator
-1) Open preferred to Windows Terminal & navigate to project(`<project path>/Client`)
+1) Open preferred Windows Terminal & navigate to project(`<project path>/Client`)
 2) Run `dotnet run` command
 3) Choose based on the retry option below:
    - Constant Backoff (e.g. 1s, 1s, 1s)
