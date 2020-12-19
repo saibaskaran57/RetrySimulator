@@ -1,10 +1,11 @@
 # Retry Simulator
- A project to simulate retries with services using .NET Polly framework.
+ A project to simulate retry patterns with services using .NET Polly framework.
  
 ## Benefits
-1) Local server provided without needing to create a server to simulate retries.
-2) Able to integrate with hosted server directly using JSON configuration file.
-3) Provides tokenization which able to correlate requests from client & server.
+1) Fires concurrent requests to server to simulate real-time retries. (Note - use it with extreme cautious)
+2) Local server provided without needing to create a server to simulate retries and understand how it works.
+2) Simulate retries with public server directly using simple JSON configuration file.
+3) Provides tokenization(e.g. `correlation-id`) which able to correlate requests from client & server.
 4) Writes results to project `/Result` directory in CSV format to visualize the data.
 
 ## Project Dependancies
@@ -21,7 +22,7 @@
    - Constant Backoff (e.g. 1s, 1s, 1s)
    - Linear Backoff (e.g. 1s, 2s, 3s)
    - Exponential Backoff (e.g. 1s, 2s, 4s, 8s)
-   - Simple Exponential Jitter Backoff (e.g. 1.123s, 2.456s, 4.768s, 8.125s)
+   - Exponential Jitter Backoff (e.g. 1.123s, 2.456s, 4.768s, 8.125s)
    - RetryAfter Backoff (e.g. 5s, 5s, 5s)
    - Aws Decorrelated Jitter Backoff (e.g. 1.123s, 2.456s, 2.768s, 4.125s)
    - Decorrelated Jitter Backoff V2 (e.g. 1.555s, 2.223s, 2.123s, 3.233s)
