@@ -42,14 +42,15 @@ Windows, Linux, Mac
   },
   "request": {
     "method": "Post",
-    "requestUri": "https://localhost:5001/api/service",
+    "requestUri": "https://localhost:5001/api/service?id={{ id }}",
     "headers": {
-      "Authorization": "Bearer <token>"
+      "Authorization": "Bearer <token>",
+      "Correlation-ID": "{{ id }}",
     },
     "contentHeaders": {
       "Content-Type": "application/json"
     },
-    "body": "{\"id\":\"{{ id }}\"}"
+    "body": "{\"correlation-id\":\"{{ id }}\"}"
   }
 }
  ```
