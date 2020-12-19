@@ -40,7 +40,7 @@
     "method": "Post",
     "requestUri": "https://localhost:5001/api/service",
     "headers": {
-      "Authorization": "Bearer 123"
+      "Authorization": "Bearer <token>"
     },
     "contentHeaders": {
       "Content-Type": "application/json"
@@ -50,5 +50,5 @@
 }
  ```
 ### Running local server simulator
-1) Open preferred to Windows Terminal & navigate to project (`<project path>/Server`)
+1) Open preferred Windows Terminal & navigate to project (`<project path>/Server`)
 2) Run `dotnet run` command
