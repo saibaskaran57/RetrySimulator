@@ -59,5 +59,5 @@ Windows, Linux, Mac
 2) Run `dotnet run` command
 
 ## What's next?
-1) To research on how to throttle/drop/lag incoming & outgoing traffic for Windows/Ubuntu.
+1) To research on how to throttle/drop/lag incoming & outgoing traffic for Windows/Linux.
 2) Package as an .EXE format
