@@ -2,7 +2,7 @@
  A project to simulate retry patterns handling with services using .NET Polly framework.
  
 ## Compatibility
-Windows, Linux, Mac
+Windows
 
 ## Benefits
 1) Fires concurrent requests to server to simulate real-time retries. (Note - use it with extreme cautious)
