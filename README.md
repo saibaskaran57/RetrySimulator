@@ -9,12 +9,13 @@ Retry Simulator was designed to simulate, observe & collect retry patterns handl
 4) Writes results to project `/Result` directory in CSV format to visualize the data.
 
 ## Dependancies
-1) Clone RetrySimulator GitHub project to your preferred environment.
-2) Visual Studio 2019/Visual Studio Code
-3) Download [.NET 5 Build SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
-4) Ensure Visual Studio 2019 IDE have been configured with Nuget package source : https://api.nuget.org/v3/index.json
+1) Visual Studio 2019/Visual Studio Code
+2) Download [.NET 5 Build SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
+3) Ensure Visual Studio 2019 IDE have been configured with Nuget package source : https://api.nuget.org/v3/index.json
 
 ## Guide to setup & run project locally
+Clone RetrySimulator GitHub project to your preferred environment.
+
 ### Running client simulator
 1) Open preferred Windows Terminal & navigate to project(`<project path>/Client`)
 2) Run `dotnet run` command
