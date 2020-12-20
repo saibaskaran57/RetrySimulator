@@ -1,5 +1,5 @@
 # Retry Simulator
- A project to simulate retry patterns handling with services using .NET Polly framework.
+Retry Simulator was designed to simulate, observe & collect retry patterns handling capability results with services using .NET Polly framework. Run the simulator to identify the right retry pattern handling.
 
 ## Benefits
 1) Fires concurrent requests to server to simulate real-time retries. (Note - use it with extreme cautious)
@@ -8,7 +8,7 @@
 3) Provides tokenization(e.g. `correlation-id`) which able to correlate requests from client & server.
 4) Writes results to project `/Result` directory in CSV format to visualize the data.
 
-## Project Dependancies
+## Dependancies
 1) Clone RetrySimulator GitHub project to your preferred environment.
 2) Visual Studio 2019/Visual Studio Code
 3) Download [.NET 5 Build SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
