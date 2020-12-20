@@ -39,7 +39,7 @@ Clone RetrySimulator GitHub project to your preferred environment.
 
   },
   "request": {
-    "method": "Post",
+    "method": "Post|Get|Update|Delete",
     "requestUri": "https://localhost:5001/api/service?id={{ id }}",
     "headers": {
       "Authorization": "Bearer <token>",
